@@ -20,3 +20,4 @@ let isLoggedIn = true;
 
 console.log(typeof undefined); // type undefined
 console.log(typeof null); // type object
+ 
