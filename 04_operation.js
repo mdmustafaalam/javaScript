@@ -58,7 +58,7 @@ let str3 = str1 + str2;
 // console.log((1 + 2) * (6 % 5));
 
 let gameCounter = 100;
-// ++gameCounter;
+++gameCounter;
 gameCounter++;
 
 console.log(gameCounter);
