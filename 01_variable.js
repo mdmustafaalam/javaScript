@@ -1,4 +1,4 @@
-console.log("Mustafa Alam");
+// console.log("Mustafa Alam");
 
 const accountId = 123456;
 let accountEmail = "mustafaalam@gmail.com";
