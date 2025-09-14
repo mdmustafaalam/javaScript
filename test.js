@@ -6,3 +6,5 @@ b = a - b;
 a = a - b;
 
 console.log(`swapping number A : ${a} and B : ${b}`);
+console.log(`swapping number A : ${a} and B : ${b}`);
+console.log(`swapping number A : ${a} and B : ${b}`);
