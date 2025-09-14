@@ -1,3 +1,5 @@
+// Swapping a number without third variable
+
 let a = 3;
 let b = 12;
 
