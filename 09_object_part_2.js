@@ -29,3 +29,20 @@ const obj3 = {4: "a", 5: "b"};
 const obj4 = {...obj1, ...obj2, ...obj3};
 // console.log(obj4);
 
+const arrayUser = [
+    {
+        id: 1,
+        email: "one@google.com",
+    },
+    {
+        id: 2,
+        email: "two@google.com",
+    },
+    {
+        id: 3,
+        email: "three@google.com",
+    }
+]
+// console.log(arrayUser[1].id);
+
+
