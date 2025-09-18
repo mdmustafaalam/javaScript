@@ -1,6 +1,4 @@
 // Object declaration type : Singleton, Object Literals
-// Singleton
-// Object.create
 
 // Object Literals
 
