@@ -45,4 +45,13 @@ const arrayUser = [
 ]
 // console.log(arrayUser[1].id);
 
+console.log(bgmiUser);
+
+console.log(Object.keys(bgmiUser));
+console.log(Object.values(bgmiUser));
+console.log(Object.entries(bgmiUser));
+
+console.log(bgmiUser.hasOwnProperty('name'));
+
+
 
