@@ -24,4 +24,14 @@ function storeResult(n1, n2){
 
 const result = storeResult(5,8);
 
-console.log(`Result is: ${result}`);
+// console.log(`Result is: ${result}`);
+
+
+function userLoggedIn(userName){
+    if (!userName) {
+        console.log("Please Enter a User Name");
+        return;
+    }
+    return `${userName}, Just Logged In`
+}
+console.log(userLoggedIn("Mustafa"));
