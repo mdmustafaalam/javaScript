@@ -24,4 +24,14 @@ function one() {
     // console.log(website);
     two();
 }
-one();
+// one();
+
+if (true) {
+    const userName = "Mustafa";
+    if (userName === "Mustafa") {
+        const website = " Linkedin";
+        // console.log(userName + website);
+    }
+    // console.log(website);
+}
+// console.log(userName);
