@@ -34,4 +34,10 @@ function userLoggedIn(userName){
     }
     return `${userName}, Just Logged In`
 }
-console.log(userLoggedIn("Mustafa"));
+// console.log(userLoggedIn("Mustafa"));
+
+// function calculateCartPrice(...num1){ // Rest Operator
+function calculateCartPrice(val, ...num1){
+    return num1;
+}
+console.log(calculateCartPrice(200,4,56,200));
