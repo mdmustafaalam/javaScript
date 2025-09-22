@@ -40,4 +40,18 @@ function userLoggedIn(userName){
 function calculateCartPrice(val, ...num1){
     return num1;
 }
-console.log(calculateCartPrice(200,4,56,200));
+// console.log(calculateCartPrice(200,4,56,200));
+
+const user = {
+    userName: "Mustafa",
+    price: 199
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.userName}, and Price is ${anyObject.price}`);
+}
+// handleObject(user);
+handleObject({
+    userName: "Mosto",
+    price:399
+})
