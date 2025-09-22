@@ -5,7 +5,7 @@ if (true) {
     const b = 20;
     var c = 30;
     // console.log("Inner: ",a);
-    
+
 }
 
 // console.log(a);
@@ -19,7 +19,7 @@ function one() {
     function two() {
         const website = "Youtube";
         console.log(userName);
-        
+
     }
     // console.log(website);
     two();
@@ -35,3 +35,18 @@ if (true) {
     // console.log(website);
 }
 // console.log(userName);
+
+
+// +++++++++ Interesting +++++++++
+
+console.log(addOne(5));
+
+function addOne(num) {
+    return num + 1;
+}
+
+const addTwo = function addOne(num) {
+    return num + 2;
+}
+
+addTwo(5); // if a declare this abab the function then it occurs an error  
